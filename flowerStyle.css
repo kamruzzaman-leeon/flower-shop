@@ -5,7 +5,6 @@
   font-family: "Open Sans", sans-serif;
 }
 
-
 .btn-primary {
   border-radius: 8px;
   background: #e55473;
@@ -24,10 +23,10 @@
   font-weight: 800;
 }
 
-.section-description{
-    color: #272727;
-    text-align: center;
-    font-size: 18px;
+.section-description {
+  color: #272727;
+  text-align: center;
+  font-size: 18px;
 }
 /* heading related styles */
 .header {
@@ -64,13 +63,39 @@
 }
 
 main {
-    max-width: 1440px;
+  max-width: 1140px;
+  margin: 0px auto;
 }
-section{
-    margin: 130px 0px;
+section {
+  margin: 130px 0px;
 }
 #feature-flowers {
-padding: 25px 50px;
+  padding: 25px 50px;
 }
 
+.flower-container {
+  display: flex;
+  gap: 32px;
+}
 
+.flower {
+  align-items: center;
+  border-radius: 300px 300px 0px 0px;
+  padding: 110px 76px;
+}
+.flowerimg {
+  width: 310px;
+}
+#pngwing6 {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-link {
+  color: #272727;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  margin-inline: auto;
+}
