@@ -5,6 +5,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
+
 .btn-primary {
   border-radius: 8px;
   background: #e55473;
@@ -15,6 +16,19 @@
   padding: 20px 45px;
 }
 
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.section-description{
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+}
 /* heading related styles */
 .header {
   background: #e554731a;
@@ -35,16 +49,28 @@
   color: #272727;
   font-size: 80px;
   font-weight: 800;
+  max-width: 700;
 }
 .banner-description {
   color: #272727;
   font-size: 18px;
   font-weight: 400;
-  margin-top: 32px ;
+  margin-top: 32px;
   margin-bottom: 32px;
 }
 
 .banner-content {
-    max-width: 635px;
-    
-  }
+  max-width: 635px;
+}
+
+main {
+    max-width: 1440px;
+}
+section{
+    margin: 130px 0px;
+}
+#feature-flowers {
+padding: 25px 50px;
+}
+
+
