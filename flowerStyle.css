@@ -1,0 +1,50 @@
+/* common shared styles */
+
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  border: 0px;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  padding: 20px 45px;
+}
+
+/* heading related styles */
+.header {
+  background: #e554731a;
+}
+
+.banner {
+  padding: 50px 240px 0px 240px;
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+}
+
+.banner .flower-pic {
+  width: 635px;
+}
+
+.banner-greeting {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+.banner-description {
+  color: #272727;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 32px ;
+  margin-bottom: 32px;
+}
+
+.banner-content {
+    max-width: 635px;
+    
+  }
