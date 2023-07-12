@@ -203,3 +203,40 @@ section {
 .feature-info {
   text-align: center;
 }
+
+.getthedeal {
+  background-image: url('Flower-Asset/Rectangle\ 9.png');
+  background-repeat: no-repeat;
+}
+
+
+.getthedealfeature {
+  padding: 130px;
+  border-radius: 10px;
+  margin: 130px 0px;
+}
+
+
+.getthedeal-info {
+  text-align: center;
+}
+
+form{
+  margin-top: 25px;
+}
+.contact input[type="email"] {
+  display: inline-block;
+  margin-bottom: 35px;
+  padding: 18px 35px;
+  font-size: 16px;
+  color: #757575;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 0px;
+  width: 60%;
+  margin-right: 5px;
+}
+
+#getthedeal-title {
+  margin-bottom:  0px;
+}
