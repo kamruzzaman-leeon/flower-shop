@@ -11,8 +11,8 @@
   border: 0px;
   font-size: 20px;
   color: white;
-  font-weight: 700;
-  padding: 20px 45px;
+  font-weight: 400;
+  padding: 15px 20px;
 }
 
 .section-title {
@@ -28,6 +28,7 @@
   text-align: center;
   font-size: 18px;
 }
+
 /* heading related styles */
 .header {
   background: #e554731a;
@@ -46,7 +47,7 @@
 
 .banner-content {
   max-width: 635px;
-  
+
 }
 
 .banner-greeting {
@@ -55,6 +56,7 @@
   font-weight: 800;
   max-width: 700;
 }
+
 .banner-description {
   color: #272727;
   font-size: 18px;
@@ -64,46 +66,45 @@
 }
 
 
-main {
+section {
   max-width: 1370px;
   margin: 0px auto;
   justify-self: auto;
+  margin-top: 130px;
 }
 
-main section {
-  margin-top: 130px;
-  
-}
 
 .flower-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
- 
-}
-.flower{
-  margin-top: 30px;
+  /* align-items: center; */
+  justify-content: space-around;
+  gap: px;
   
-  }
 
-  .flower-container > .flower > p{
-    text-align: center;
-    
-  }
+}
+
+.flower {
+  margin-top: 30px;
+
+}
+
+.flower-container>.flower>p {
+  text-align: center;
+
+}
 
 
 .flower-link {
-  
+
   color: #272727;
   font-size: 24px;
   font-weight: 700;
   text-decoration-line: underline;
   margin-top: 20px;
-   
+
 }
 
-#pngwing6{
+#pngwing6 {
   border-radius: 300px 300px 0px 0px;
   padding: 25px 30px 0px 30px;
   background: rgba(167, 33, 98, 0.15);
@@ -112,7 +113,7 @@ main section {
 }
 
 
-#pngwing5{
+#pngwing5 {
   border-radius: 300px 300px 0px 0px;
   padding: 25px 30px 0px 30px;
   background: #0597A026;
@@ -120,10 +121,68 @@ main section {
   width: 310px;
 }
 
-#pngwing7{
+#pngwing7 {
   border-radius: 300px 300px 0px 0px;
   padding: 25px 30px 0px 30px;
   background: rgba(167, 33, 98, 0.15);
   height: 440px;
   width: 310px;
 }
+
+.support{
+  background: #e554731a;
+   padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hotdeal{
+  background: #e554731a;
+   padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .hotdeal-content{
+  width: 40%;
+  text-align: center;
+ }
+.hotdeal .hotdeal-flower-pic {
+  width: 520px;
+   
+}
+
+
+
+.hotdeal-greeting {
+  color: #272727;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+
+}
+
+.hotdeal-description {
+  color: #272727;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  
+}
+
+.flowerfontstyle{
+color: #e55473;
+}
+
+
+/* instragram content */
+.instra-container {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  gap: 10px;
+
+}
+
