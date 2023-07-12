@@ -30,6 +30,58 @@
 }
 
 /* heading related styles */
+
+/* nav style */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 200px;
+  font-weight: bold;
+  
+  
+}
+
+.nav-title {
+  color: #dbaf90;
+  text-align: center;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 0px;
+
+}
+
+nav>ul {
+  display: flex;
+  align-items: center;
+  
+}
+
+nav li {
+  list-style: none;
+ margin: 0px 80px;
+ padding-top: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e45f5f;
+  font-size: 22px;
+  margin-top: 35px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0px;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+
+
 .header {
   background: #e554731a;
 }
@@ -221,9 +273,10 @@ section {
   text-align: center;
 }
 
-form{
+form {
   margin-top: 25px;
 }
+
 .contact input[type="email"] {
   display: inline-block;
   margin-bottom: 35px;
@@ -238,7 +291,7 @@ form{
 }
 
 #getthedeal-title {
-  margin-bottom:  0px;
+  margin-bottom: 0px;
 }
 
 /* footer style */
@@ -260,6 +313,7 @@ footer p {
   margin-bottom: 55px;
 
 }
+
 .footer-title {
   color: #fff;
   text-align: center;
@@ -267,8 +321,9 @@ footer p {
   font-style: normal;
   font-weight: 800;
   margin-bottom: 0px;
-  
+
 }
+
 #copyright {
   color: rgba(255, 255, 255, 0.40);
   font-size: 16px;
