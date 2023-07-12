@@ -240,3 +240,38 @@ form{
 #getthedeal-title {
   margin-bottom:  0px;
 }
+
+/* footer style */
+
+footer {
+  background: #111010;
+  color: white;
+  text-align: center;
+  padding: 100px;
+
+}
+
+
+footer p {
+  Color: #FFFFFFE5;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  margin-bottom: 55px;
+
+}
+.footer-title {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 0px;
+  
+}
+#copyright {
+  color: rgba(255, 255, 255, 0.40);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
