@@ -34,10 +34,10 @@
 }
 
 .banner {
-  padding: 50px 240px 0px 240px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
-  justify-items: space-between;
+  justify-content: space-between;
 }
 
 .banner .flower-pic {
@@ -73,7 +73,7 @@ section {
   padding: 25px 50px;
 }
 
-.flower-container {
+/* .flower-container {
   display: flex;
   gap: 32px;
 }
@@ -98,4 +98,4 @@ section {
   line-height: 35px;
   text-decoration-line: underline;
   margin-inline: auto;
-}
+} */
