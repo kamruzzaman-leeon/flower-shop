@@ -44,9 +44,14 @@
   width: 635px;
 }
 
+.banner-content {
+  max-width: 635px;
+  
+}
+
 .banner-greeting {
   color: #272727;
-  font-size: 80px;
+  font-size: 65px;
   font-weight: 800;
   max-width: 700;
 }
@@ -58,9 +63,6 @@
   margin-bottom: 32px;
 }
 
-.banner-content {
-  max-width: 635px;
-}
 
 main {
   max-width: 1140px;
